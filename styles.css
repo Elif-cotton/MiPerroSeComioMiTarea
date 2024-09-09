@@ -1,0 +1,33 @@
+/* Estilos CSS para centrar el texto y ajustar el tamaño de la fuente */
+body {
+    font-size: calc(1rem + 1vw); /* Tamaño de fuente más pequeño */
+    text-align: center; /* Centrado del texto */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Alinear el contenido hacia arriba */
+    height: 100vh; /* Altura completa de la ventana */
+}
+.content-container { /* Nuevo contenedor para agrupar h1 y GIF */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    margin-bottom: 0px;
+}
+.gif-container {
+    margin-top: 0px; /* Margen superior al GIF */
+    width: 100%; /* Ancho del contenedor */
+    display: flex;
+    justify-content: center; /* Centrar el contenido */
+    overflow: hidden; /* Ocultar el desbordamiento */
+}
+
+.tenor-gif-embed {
+    transform: scale(0.8); /* Escala del GIF al 80% */
+    margin-top: 0;
+
+}
